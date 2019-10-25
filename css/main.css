@@ -19,9 +19,30 @@ img{
 .rojo{
 	color: #D93030
 }
+.no-lista {
+	margin: 0px;
+	padding: 0px;
+}
+.no-lista li{
+	list-style-type: none;
+}
+
+.se-gris{
+	background-color: #eee;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.inline-block{
+	float: left;
+	display: inline-block;
+	/*margin-right: -4px;*/
+}
 .espacio-derecha{
 margin-right: 1em;
 }
 a{
 	color: #F28095;
 }
+
+
