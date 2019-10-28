@@ -30,18 +30,21 @@ img{
 .se-gris{
 	background-color: #eee;
 }
+.vete-arriba{
+	vertical-align: top;
+}
 .padding-largo{
 	padding: 5px 10px;
 }
 .inline-block{
-	float: left;
+	float: none;
 	display: inline-block;
-	/*margin-right: -4px;*/
+	margin-right: -4px;
 }
 .espacio-derecha{
 margin-right: 1em;
 }
-a{
+a,.rosado{
 	color: #F28095;
 }
 
