@@ -2,13 +2,13 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 img{
-	max-width: 100%;
+	max-width: 45%;
 }
 .quitar-float{
 	float: none;
 }
 .espacio-arriba{
-	margin-top: 100px;
+	margin-top: 10px;
 }
 .lobster{
 	font-family: 'Lobster', cursive;
@@ -19,6 +19,17 @@ img{
 .rojo{
 	color: #D93030
 }
+.retraso-1{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay: 1s;
+}
+.retraso-2{
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay: 2s;
+}
+
 .no-lista {
 	margin: 0px;
 	padding: 0px;
@@ -31,7 +42,7 @@ img{
 	background-color: #eee;
 }
 .mediano{
-	font-size: 1.5em;
+	font-size: 1em;
 }
 .vete-arriba{
 	vertical-align: top;
